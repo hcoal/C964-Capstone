@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 
 
 
-titanic_set = pd.read_csv("data/Titanic-Dataset.csv") # importing data set
+titanic_set = pd.read_csv("C964/data/Titanic-Dataset.csv") # importing data set
 
 print(titanic_set.duplicated().sum()) # checking to verify if there are any duplicates, if none, continue with processing
 
