@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import create_model
 
-titanic_set = pd.read_csv("data/Titanic-Dataset.csv")
+titanic_set = pd.read_csv("C964/data/Titanic-Dataset.csv")
 titanic_set.dropna(subset="Age", inplace=True)
 st.title("Titanic Survival Predictor")
 st.header("Enter your information and find out if you're unsinkable")
